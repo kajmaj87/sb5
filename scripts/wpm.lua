@@ -28,8 +28,8 @@ function m.handle_event(event)
     end
 end
 
-function m.result()
-    return wpm
-end
+-- function m.result()
+--     return wpm
+-- end
 
 return m

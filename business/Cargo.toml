@@ -1,6 +1,9 @@
 [package]
-name = "sb5"
+name = "business"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+serde = { version = "1.0.203", features = ["derive"] }
+rand = "0.8.5"
+mlua = { version = "0.9", features = ["luau-jit"] }

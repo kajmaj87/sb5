@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "business",
+    "ui",
+    "os"
+]
+resolver = "2"
